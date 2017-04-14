@@ -1,5 +1,5 @@
 nginx:
-  image: nginx:latest
+  build: ./nginx/
   ports:
     - 80:80
   links:
